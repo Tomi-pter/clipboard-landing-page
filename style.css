@@ -182,9 +182,10 @@ footer a:focus {
     color: var(--strong-cyan);
 }
 
-.social img:hover {
+.social a:hover {
     filter: drop-shadow(1px 1px 1px hsl(171, 66%, 44%));
     opacity: .5;
+    color: var(--strong-cyan);
 }
 
 @media screen and (min-width: 376px) {
