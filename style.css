@@ -183,9 +183,8 @@ footer a:focus {
 }
 
 .social a:hover {
-    filter: drop-shadow(1px 1px 1px hsl(171, 66%, 44%));
-    opacity: .5;
-    color: var(--strong-cyan);
+    filter: invert(56%) sepia(100%) saturate(338%) hue-rotate(122deg) brightness(90%) contrast(85%);
+    /*filter: invert(0.4) sepia(1) saturate(20) hue-rotate(122.4deg) brightness(1);*/
 }
 
 @media screen and (min-width: 376px) {
@@ -254,7 +253,7 @@ footer a:focus {
     footer {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 20vh;
+        grid-template-rows: minmax(1vh, 20vh);
         column-gap: 1rem;
     }
     footer ul {
@@ -280,6 +279,19 @@ footer a:focus {
     }
     .social img {
         margin: 0 1rem;
+    }
+}
+
+@media screen and (min-width: 1441px) {
+    body {
+        background-size: 100%;
+    }
+    main {
+        max-width: 80%;
+        margin: auto;
+    }
+    footer {
+        grid-template-rows: 10vh;
     }
 }
 
