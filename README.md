@@ -9,6 +9,7 @@ This is a solution to the [Clipboard landing page challenge on Frontend Mentor](
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
+  - [Useful resources](#useful-resources)
 - [Author](#author)
 
 ## Overview
@@ -36,6 +37,9 @@ Users should be able to:
 - CSS Grid
 - Mobile-first workflow
 
+### Useful resources
+
+- CSS tricks article on svg/image filter: [article URL here](https://css-tricks.com/the-many-ways-to-change-an-svg-fill-on-hover-and-when-to-use-them/)
 ## Author
 
 - Website - [Add your name here](https://www.your-site.com)
